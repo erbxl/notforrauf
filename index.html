@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Esparus — Признание диплома врача в Испании</title>
+  <meta name="description" content="Esparus помогает врачам из России, Украины, Казахстана, Беларуси и других стран СНГ признать диплом и начать работать врачом в Испании. С 2006 года — больше 700 признанных дипломов. Напишите нам в WhatsApp.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap">
+
+  <link rel="stylesheet" href="styles.css?v=20260915">
+  <link rel="icon" href="assets/img/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="assets/img/favicon-32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="assets/img/favicon-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/img/favicon-180.png">
+</head>
+<body class="landing-page has-wa-bar">
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="site-nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand"><img src="assets/img/logo.webp" alt="Esparus" width="158" height="30"></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO (pantalla 1 — titular emocional) -->
+    <section class="hero" style="padding-bottom:1.5rem">
+      <div class="container hero-inner">
+        <p class="kicker" data-landinghero-kicker></p>
+        <h1 class="hero-title" data-landinghero-title></h1>
+        <p class="lede" data-landinghero-sub></p>
+      </div>
+    </section>
+
+    <!-- MOTIVACIÓN (pantalla 2 — puente breve, una sola frase) -->
+    <section class="section" id="motivations" style="padding-block:0 1.5rem">
+      <div class="container">
+        <p class="landing-motivation reveal" data-landingmotivation-text></p>
+      </div>
+    </section>
+
+    <!-- SERVICIOS (pantalla 3+4 — puente + solución) -->
+    <section class="section" id="services" style="padding-top:0">
+      <div class="container">
+        <p class="lede landing-bridge" data-landingbridge-text style="max-width:none"></p>
+        <p class="kicker" data-landingservices-kicker style="margin-top:1.75rem"></p>
+        <div class="landing-services-grid" data-landingservices-items></div>
+      </div>
+    </section>
+
+    <!-- NOSOTROS / CONFIANZA (pantalla 5 — personas reales + cifras verificadas) -->
+    <section class="section" id="about" style="background:var(--bg-2)">
+      <div class="container">
+        <div class="section-head">
+          <p class="kicker" data-sobre-kicker></p>
+          <h2 data-sobre-title></h2>
+          <p class="lede" data-sobre-sub style="margin-top:.75rem"></p>
+        </div>
+        <div class="people-grid" data-people-items></div>
+        <h3 data-proof-title style="font-size:1.15rem; text-align:center; margin:2.5rem 0 1.5rem"></h3>
+        <div class="stat-row" data-proof-items style="text-align:center"></div>
+      </div>
+    </section>
+
+    <!-- NUESTROS CLIENTES -->
+    <section class="section" id="clients">
+      <div class="container">
+        <div class="section-head">
+          <p class="kicker" data-landingclients-kicker></p>
+          <h2 data-landingclients-title></h2>
+        </div>
+        <div class="testi-grid" data-testimonials></div>
+      </div>
+    </section>
+
+    <!-- BLOQUE FINAL (pantalla 6 — cierre corto, repite la única CTA) -->
+    <section class="section landing-final" id="final">
+      <div class="container">
+        <h2 data-landingfinal-title></h2>
+        <p class="lede" data-landingfinal-sub style="margin-top:.75rem"></p>
+        <a class="whatsapp-cta-final reveal" data-wa-link="final" href="#" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.198-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.173.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.148-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.876 1.213 3.074.149.198 2.095 3.2 5.076 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.05 2C6.53 2 2.05 6.48 2.05 12c0 1.85.5 3.58 1.36 5.07L2 22l5.07-1.38A9.93 9.93 0 0 0 12.05 22C17.57 22 22.05 17.52 22.05 12S17.57 2 12.05 2zm0 18.1c-1.66 0-3.2-.48-4.5-1.31l-.32-.2-3.02.83.82-2.95-.21-.32A8.09 8.09 0 0 1 3.95 12c0-4.47 3.63-8.1 8.1-8.1 4.47 0 8.1 3.63 8.1 8.1 0 4.47-3.63 8.1-8.1 8.1z"/></svg>
+          <span data-landingfinal-button></span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" style="padding-block:2rem 1rem; text-align:center">
+    <div class="container">
+      <p data-footer-rights>Esparus — Все права защищены.</p>
+    </div>
+  </footer>
+
+  <div class="whatsapp-bar-inner">
+    <a class="whatsapp-cta" data-wa-link="bar" href="#" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.198-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.173.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.148-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.876 1.213 3.074.149.198 2.095 3.2 5.076 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.05 2C6.53 2 2.05 6.48 2.05 12c0 1.85.5 3.58 1.36 5.07L2 22l5.07-1.38A9.93 9.93 0 0 0 12.05 22C17.57 22 22.05 17.52 22.05 12S17.57 2 12.05 2zm0 18.1c-1.66 0-3.2-.48-4.5-1.31l-.32-.2-3.02.83.82-2.95-.21-.32A8.09 8.09 0 0 1 3.95 12c0-4.47 3.63-8.1 8.1-8.1 4.47 0 8.1 3.63 8.1 8.1 0 4.47-3.63 8.1-8.1 8.1z"/></svg>
+      <span data-wa-bar-label>Связаться по WhatsApp</span>
+    </a>
+  </div>
+
+  <script defer src="lib/gsap.min.js"></script>
+  <script defer src="lib/ScrollTrigger.min.js"></script>
+  <script defer src="lib/manifest.js"></script>
+  <script defer src="main.js?v=20260915"></script>
+</body>
+</html>
